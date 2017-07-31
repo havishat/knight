@@ -13,9 +13,20 @@ def multiply(a,b):
 	newarr=[]
 	for i in range(0, len(a)):
 		newarr+=[a[i]*b]
-	print newarr
+	return newarr
 
 
-multiply([2,3,4,5],2)
+
+def layeredmultiples(x):
+	newarray=[]
+	a = []
+	for i in range (0,len(x)):
+		for z in range(0,x[i]):
+			a+=[1]
+		newarray+=[a]
+		a=[]
+	print newarray
+layeredmultiples(multiply([2,3,4,5],2))
+			
 
 
