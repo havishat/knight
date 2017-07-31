@@ -1,6 +1,6 @@
 import math
 
-'''def myfunction(str):
+def myfunction(str):
 	x=str.split(" ");
 	for i in range(0, len(x)):
 		if x[i]== "day.":
@@ -25,7 +25,7 @@ def firstlast(anylist):
 	print "first item: {}".format(anylist[0])
 	print "last item: {}".format(anylist[-1])
 
-firstlast([4,7,3,"cat"])'''
+firstlast([4,7,3,"cat"])
 
 
 def listgymnastics(alist):
@@ -43,3 +43,5 @@ def listgymnastics(alist):
 
 
 listgymnastics([1,2,3,4])
+
+
